@@ -7,7 +7,7 @@ extern "C" {
 #endif
 
 
-uint64_t add(void* s_data, size_t s_len, size_t s_cap);
+uint64_t add(void* s_base, size_t s_len, size_t s_cap);
 
 
 #ifdef __cplusplus
